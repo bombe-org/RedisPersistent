@@ -1,0 +1,51 @@
+64138:M 20 Oct 21:10:22.627 * RDB thread start.
+64138:M 20 Oct 21:10:22.628 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+64138:M 20 Oct 21:10:22.628 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+64138:M 20 Oct 21:10:22.628 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (6173a2cb/1) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6380
+ |    `-._   `._    /     _.-'    |     PID: 64138
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+64138:M 20 Oct 21:10:22.629 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+64138:M 20 Oct 21:10:22.629 # Server started, Redis version 3.0.6
+64138:M 20 Oct 21:10:22.629 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+64138:M 20 Oct 21:10:22.629 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+64138:M 20 Oct 21:10:22.630 * The server is now ready to accept connections on port 6380
+64138:M 20 Oct 21:10:44.971 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:10:45.057 * DB saved on disk
+64138:M 20 Oct 21:10:45.057 # Checkpoint Success.
+64138:M 20 Oct 21:10:56.010 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:11:01.594 * DB saved on disk
+64138:M 20 Oct 21:11:01.594 # Checkpoint Success.
+64138:M 20 Oct 21:11:12.026 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:11:27.878 * DB saved on disk
+64138:M 20 Oct 21:11:27.878 # Checkpoint Success.
+64138:M 20 Oct 21:11:39.253 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:12:03.589 * DB saved on disk
+64138:M 20 Oct 21:12:03.589 # Checkpoint Success.
+64138:M 20 Oct 21:12:14.054 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:12:39.459 * DB saved on disk
+64138:M 20 Oct 21:12:39.459 # Checkpoint Success.
+64138:M 20 Oct 21:12:50.054 * 1 changes in 10 seconds. Saving...
+64138:M 20 Oct 21:13:14.259 * DB saved on disk
+64138:M 20 Oct 21:13:14.259 # Checkpoint Success.
+64138:signal-handler (1476969359) Received SIGINT scheduling shutdown...
+64138:M 20 Oct 21:15:59.911 # User requested shutdown...
+64138:M 20 Oct 21:15:59.911 * Saving the final RDB snapshot before exiting.
+64138:M 20 Oct 21:16:20.184 * DB saved on disk
+64138:M 20 Oct 21:16:20.184 # Checkpoint Success.
+64138:M 20 Oct 21:16:20.230 # Redis is now ready to exit, bye bye...
