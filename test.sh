@@ -1,4 +1,5 @@
-
+echo turn off TRANSPARENT HUGE PAGE
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
 TYPE=$1
 if [ -z "$TYPE" ];
 then
