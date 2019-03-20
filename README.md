@@ -27,6 +27,6 @@ Then, you should install java-jre, and download the ycsb package for redis, the 
 
 Finally, run the following command in the path of **ycsb-redis** to begin the benchmark:
 
-`bin/ycsb load redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380`
+`bin/ycsb load redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380 -threads 256`
 
-`bin/ycsb run redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380`
+`bin/ycsb run redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380 -threads 1`
