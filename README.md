@@ -1,4 +1,4 @@
-
+# RedisPersistent
 RedisPersistent is some kind of variants of [Redis](https://redis.io). 
 
 The **motivation** of this repo is to improve the fork performance when redis triggered the *bgsave* function.
@@ -8,10 +8,10 @@ The Hourglass and Piggyback algorithms is described in the following paper.
 
 >>> Li, Liang, Guoren Wang, Gang Wu, and Ye Yuan. "Consistent Snapshot Algorithms for In-Memory Database Systems: Experiments and Analysis." In 2018 IEEE 34th International Conference on Data Engineering (ICDE), pp. 1284-1287. IEEE, 2018.
 
-Besides, the performance of those algorithm is studied in [FrequentSnapshot](https://github.com/bombehub/FrequentSnapshot)
+Besides, the performance of those algorithm is studied in [FrequentSnapshot](https://github.com/bombehub/FrequentSnapshot).
 
 # Build
-first, install: **autoconf**
+first, you must install **autoconf**, and run the following command.
 
 `./build.sh`
 
@@ -28,4 +28,5 @@ Then, you should install java-jre, and download the ycsb package for redis, the 
 Finally, run the following command in the path of **ycsb-redis** to begin the benchmark:
 
 `bin/ycsb load redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380`
+
 `bin/ycsb run redis -P workloads/workloada -p redis.host=localhost -p redis.port=6380`
