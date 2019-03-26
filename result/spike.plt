@@ -2,9 +2,10 @@ set term pdfcairo lw 2 font "Arial,18"
 set output "redis_spike.pdf"
 
 set xlabel "Record count[M], logscale" font "Arial,20"
-set ylabel "Maximum latency[ms]" font "Arial,20"
+set ylabel "Maximum latency[ms], logscale" font "Arial,20"
 set xtics ("1" 1,"2" 2,"4" 4,"8" 8,"16" 16)
 set logscale x
+set logscale y
 
 set key left top
 set grid lw 2
