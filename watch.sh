@@ -1,0 +1,1 @@
+watch -n 1 -d "cou-redis-3.0/src/redis-cli -h localhost -p 6380 info | grep -e connected_clients -e blocked_clients -e used_memory_human -e used_memory_peak_human -e rejected_connections -e evicted_keys -e instantaneous"
